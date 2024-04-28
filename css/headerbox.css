@@ -1,0 +1,52 @@
+.header{
+    width: 100vw;
+    display: flex;
+    justify-content: center; 
+    margin-top: 90px;
+    
+}
+.container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+   
+}
+.header-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 91%;
+}
+.btn_join {
+    width: 125px;
+    height: 40px;
+    top: 14px;
+    padding: 8px 15.8px 8px 16px;
+    border-radius: 8px;
+    background: #00798a;
+    border: none;
+    color: white;
+    font-size: 14px;
+    line-height: 20px;
+    cursor: pointer;
+    margin-top: 24px;
+}
+.btn_join:hover {
+    cursor: pointer;
+    background-color: #038ea0;
+  }
+.box_header_left{
+    width: 50%;
+}
+.box_header_left h1{
+    font-size: 42px;
+    font-weight: bold;
+  
+}
+.box_header_left p{
+    font-size: 16px;
+   
+    margin-top: 24.5px;
+}

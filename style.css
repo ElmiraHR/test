@@ -1,0 +1,158 @@
+@import url('./css/headerbox.css');
+@import url('./css/events.css');
+@import url('./css/upcoming.css');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto','sanserif';
+  
+}
+body {
+    overflow-x: hidden;
+}
+.header-container {
+    width: 100vw;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.header-container input{
+    width: 300px;
+    height: 42px;
+   margin: -3px;
+}
+
+.leftside span {
+    position: relative;
+    top: 15px;
+    left: 5px;
+    margin-right: 40px;
+}
+.leftside input {
+    padding-left: 17px;
+}
+ #search_svg {
+    position: relative;
+    top: 16px;
+    left: -1px;
+ }
+ .btn {
+    width: 83.13px;
+    height: 36px;
+    top: 14px;
+    padding: 8px 15.8px 8px 16px;
+    border-radius: 8px;
+    background: #00798a;
+    border: none;
+    color: white;
+    font-size: 14px;
+    line-height: 20px;
+    cursor: pointer;
+  }
+  .btn:hover {
+    cursor: pointer;
+    background-color: #038ea0;
+  }
+  .langlogin {
+    background-color: white;
+    border: none;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+  }
+  .rightside {
+    display: flex;
+    align-items: center;
+    gap:22px;
+    margin-right: 20px;
+  }
+
+
+  
+@media (max-width: 576px) {
+   .rightside{
+    margin-right: 90px;
+    margin-top: 15px;
+   }
+   #logo{
+    margin-left: 40px;
+   }
+    .leftside {
+    flex-direction: column;
+   }
+   #search_events {
+    width: 350px;
+    position: absolute;
+    top: 80px;
+    left: 50px;
+   }
+   #search_svg {
+    position: absolute;
+    top: 77px;
+    left: 395px;
+   }
+    #search_city {
+    display: none;
+   }
+   .events-box {
+    grid-template-columns: 1fr;
+   }
+   .upcoming-box {
+    grid-template-columns: 1fr;
+   }
+   h3 {
+    width: 75%;
+   }
+   
+   .box_header_left {
+    width: 400px;
+    margin-top: 20px;     
+   }
+   .header-box {
+    width: 100%;
+    flex-direction: column;
+    margin: 0;
+   }
+   .header-box h1 {
+    font-size: 21px;
+   }
+   .header-box p {
+    font-size: 12px;
+   }
+   .header-box {
+    width: 100vw;
+   }
+   .btn_see_all {
+    display: none;
+   }
+   .btn_events {
+    width: 300px;
+    font-size: 16px;                
+   }
+  }
+  @media (max-width: 992px) {
+   
+  }
+  @media (min-width: 992px) {
+    
+  }
+  @media (min-width: 1200px) {
+   
+  }
+  @media (min-width: 1400px) {
+    
+  }
+  
+  @media (max-width: 768px) {
+   
+  }
+  
+  .footer {
+    background-color: #000;
+    color: #fff;
+  }
+  .footer-container {
+    padding: 0 20px;
+  }
